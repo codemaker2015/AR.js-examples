@@ -1,0 +1,97 @@
+body 
+{
+	background-color: #c79081;
+	margin: 2% 5% 0% 5%;            /* top, left, bottom, right or TRBL */
+	
+	font-family: Roboto, Serif;	/* list font names in order of preference */
+	font-weight: normal;            /* normal, bold */
+	font-style: normal;             /* normal, italic */
+	font-variant: normal;           /* normal, small-caps */
+	font-size: 18px;                /* font size */
+	color: #f3f3f3;                 /* hexadecimal RGB color code */
+	text-decoration: none;          /* none, underline, overline, line-through */
+	text-align: left;               /* left, right, center, justify */
+}
+
+.title-text
+{
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.item-container
+{
+	width: 100%;
+	min-height: 150px;
+	
+	/* Background color and gradients */
+	background: #b17b6c;
+	background: -moz-linear-gradient(top, #b17b6c, #b17b6c);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#b17b6c), to(#b17b6c));
+
+	/* translucence */
+	background: -moz-linear-gradient(top, #b17b6c, rgba(156, 97, 80,0.8) );
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from( rgba(177,123,108,0.8) ), to( rgba(156, 97, 80, 0.8) ));
+	
+	/* Rounded corners */
+	-moz-border-radius: 15px 15px 15px 15px;
+	-webkit-border-radius: 15px 15px 15px 15px;
+	border-radius: 15px 15px 15px 15px;
+
+	margin-bottom: 8px;
+}
+
+.tableText
+{
+	vertical-align: top;
+	
+	width: 100%;
+	padding-top: 12px;
+}
+
+/* Page text links */
+a 
+{
+	/* font-size: 20px; */
+	margin: 13px 0px 0px 0px;
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out; 
+}
+
+a:hover 
+{
+	color: #c00;
+	/*text-shadow: 1px 1px 0px #f00;
+	/* gradual change */
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out; 
+}
+
+.item-container-image
+{  
+	height: 150px;
+	width: 225px;
+	margin: 0px 20px 0px 0px;
+	float: left;
+	
+	/* Rounded corners */
+	-moz-border-radius: 15px 15px 15px 15px;
+	-webkit-border-radius: 15px 15px 15px 15px;
+	border-radius: 15px 15px 15px 15px;
+	
+	position: relative; 
+	
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out; 
+}  
+
